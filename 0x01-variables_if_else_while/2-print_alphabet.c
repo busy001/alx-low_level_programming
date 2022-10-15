@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <unistd.h>
+
 /**
  * main - Entry point
  * Description: prints the alphabet in lowercase\n
@@ -7,11 +7,11 @@
 **/
 int main(void)
 {
-int ch;
+char lc;
 
-for (ch = 'a'; ch <= 'z'; ch++);
+for (lc = 'a'; lc <= 'z'; lc++)
 {
-putchar(ch);
+putchar(lc);
 }
 putchar('\n');
 return (0);
